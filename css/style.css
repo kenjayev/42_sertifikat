@@ -16,8 +16,6 @@ body {
 .certificate__box {
   width: 1190px;
   margin: 10px auto;
-
-  padding-bottom: 85px;
   background-color: #fff;
 }
 .certificate__body {
@@ -80,11 +78,14 @@ body {
 
 /* ------------- */
 .certificate__footer {
-  height: 254px;
-  margin-top: 205px;
+  padding-top: 205px;
+  padding-bottom: 85px;
   display: flex;
   justify-content: space-between;
   align-items: end;
+}
+.certificate__footer__studentsIMG-box {
+  margin-bottom: 60px;
 }
 .course__founderSignature-box {
   margin-bottom: 25px;
